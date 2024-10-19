@@ -55,6 +55,55 @@ const PRODUCTS = [
         price: '$1200',
         category: 'accessories',
     },
+    {
+        image: 'Images/Palms.jpg',
+        name: 'Mens watch',
+        description: 'Recommended by 99% of customers',
+        price: '$1200',
+        category: 'foot wears, palm, footwears',
+    },
+    {
+        image: 'Images/female-dress1.jpg',
+        name: 'Mens watch',
+        description: 'Recommended by 99% of customers',
+        price: '$1200',
+        category: 'dress, female',
+    },
+    {
+        image: 'Images/sunglass.jpg',
+        name: 'Mens watch',
+        description: 'Recommended by 99% of customers',
+        price: '$1200',
+        category: 'accessories, glass',
+    },
+    {
+        image: 'Images/watch.jpg',
+        name: 'Mens watch',
+        description: 'Recommended by 99% of customers',
+        price: '$1200',
+        category: 'accessories, hand-wears',
+    },
+    {
+        image: 'Images/Palms.jpg',
+        name: 'Mens watch',
+        description: 'Recommended by 99% of customers',
+        price: '$1200',
+        category: 'foot wears, footwears',
+    },
+    {
+        image: 'Images/female-dress1.jpg',
+        name: 'Mens watch',
+        description: 'Recommended by 99% of customers',
+        price: '$1200',
+        category: 'accessories',
+    },
+    {
+        image: 'Images/sunglass.jpg',
+        name: 'Mens watch',
+        description: 'Recommended by 99% of customers',
+        price: '$1200',
+        category: 'accessories',
+    },
 
 ]
 
@@ -103,11 +152,11 @@ function displayProduct() {
                 // console.log(el.innerHTML);
                 if (el.nextElementSibling.innerHTML > 0) {
                     el.nextElementSibling.innerHTML--;
-                
+
                 } else {
                     el.disabled = true;
 
-                    if(cartNum.innerHTML >= 0){
+                    if (cartNum.innerHTML >= 0) {
                         cartNum.innerHTML--;
                     }
                 }
