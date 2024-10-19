@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,35 +9,35 @@
     <link rel="stylesheet" href="./all.min.css">
     <link rel="stylesheet" href="./aos.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <p class="logo">
-                DREYWEARS
-            </p>
-            <div class="search-wrapper">
-                <input type="text" name="input" id="input" placeholder="Search for...">
-                <label for="input"><i class="fa-solid fa-magnifying-glass"></i></label>
-            </div>
-            <div class="cart-wrapper">
-                <img src="./Images/home-icon-4 - Copy.png" alt="">
-                <span id="cart-num">0</span>
-            </div>
-        </nav>
-    </header>
-    
+    <nav>
+        <p class="logo">
+            DREYWEARS
+        </p>
+        <div class="search-wrapper">
+            <input type="text" name="input" id="input" placeholder="Search for...">
+            <label for="input"><i class="fa-solid fa-magnifying-glass"></i></label>
+        </div>
+        <div class="cart-wrapper">
+            <img src="./Images/home-icon-4 - Copy.png" alt="">
+            <span id="cart-num">0</span>
+        </div>
+    </nav>
+
     <div class="products"> </div>
-   
+
     <script src="./aos.js"></script>
     <script src="./all.min.js"></script>
     <script src="./jquery.js"></script>
     <script src="./script.js"></script>
     <script>
         AOS.init({
-    //   disable: 'mobile',
-      duration: 1000,
-      anchorPlacement: 'center-bottom'
-    });
+            //   disable: 'mobile',
+            duration: 1000,
+            anchorPlacement: 'center-bottom'
+        });
     </script>
 </body>
+
 </html>
