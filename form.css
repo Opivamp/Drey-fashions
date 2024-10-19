@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100dvh;
+}
+
+form {
+    /* border: 1px solid black; */
+    width: 30% !important;
+    font-weight: 600;
+    font-size: medium;
+    box-shadow: 0 0 3px 1px #638ec3;
+    padding: 1em;
+}
